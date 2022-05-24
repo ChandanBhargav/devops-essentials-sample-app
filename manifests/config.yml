@@ -11,6 +11,7 @@ spec:
   ports:
   - name: "hello-world"
     port: 80
+    targetPort: 9376
   selector:
     app: nginx
 ---
