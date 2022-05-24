@@ -9,7 +9,7 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-  - name: "hello world"
+  - name: "hello world1234_-"
     port: 80
   selector:
     app: nginx
