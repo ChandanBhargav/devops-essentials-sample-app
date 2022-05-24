@@ -32,4 +32,3 @@ spec:
         image: nginx:1.14.2
         ports:
         - containerPort: 80
-          sh 'echo $(curl localhost:8080)'
