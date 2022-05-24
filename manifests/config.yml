@@ -24,8 +24,8 @@ spec:
       app: nginx
   template:
     metadata:
-       annotations:
-          dev.okteto.com/auto-ingress: "true"
+      annotations:
+        dev.okteto.com/auto-ingress: "true"
       labels:
         app: nginx
     spec:
